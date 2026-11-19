@@ -32,8 +32,8 @@ une palette de commandes (⌘K), une barre latérale repliable (⌃⌘S) et un m
 ### Notes du designer
 
 - **Une zone de notes par élément** (relecture, réponse à une mention, notes de conception, notes de merge), enregistrée sur le
-  Mac à chaque frappe ; l'annulation (⌘Z) est conservée lors d'un changement d'écran. Ouverte d'office pour les relectures et les
-  mentions, repliable ailleurs.
+  Mac à chaque frappe ; l'annulation (⌘Z) est conservée lors d'un changement d'écran. Toujours affichée à côté du contexte : on
+  fait glisser le filet qui les sépare pour donner plus de place à l'un ou à l'autre (double-clic : largeur d'origine).
 - **Dictée** : transcription vocale en français, sur le Mac lorsque macOS le permet ; elle se poursuit pendant la navigation dans
   l'application, avec un indicateur permanent. L'accès au micro n'est demandé qu'au premier lancement de la dictée.
 - **Aide de Claude sur les notes** : formaliser, mettre en forme pour GitHub, vérifier les remarques (ticket, code, maquette),

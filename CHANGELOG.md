@@ -3,6 +3,15 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.8.0 — 19 novembre 2026
+
+- **Détail d'un élément — contexte et notes côte à côte, à la largeur voulue** : la colonne des notes est toujours affichée
+  (le bouton « Masquer mes notes » disparaît). Le filet qui la sépare du contexte se fait glisser pour donner plus de place à
+  l'un ou à l'autre ; la largeur choisie est retenue, un double-clic rend la largeur d'origine.
+- **Lisibilité** : le texte du contexte et la zone de notes ne s'étirent plus au-delà d'une longueur de ligne confortable.
+- **Finitions** : le bouton « Copier et ouvrir la PR » ne touche plus les bords de la zone de notes ; l'onglet actif n'a plus de
+  bordure, sur tous les onglets.
+
 ## 1.7.0 — 19 novembre 2026
 
 - **Discussion avec Claude à côté des notes** : sur écran large, la colonne de droite d'un élément propose deux onglets, les
