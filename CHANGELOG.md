@@ -3,6 +3,15 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.10.0 — 19 novembre 2026
+
+- **Textes sans tutoiement** : toute l'application adopte une formulation impersonnelle et professionnelle, sans « tu » ni
+  « vous » : l'infinitif pour les actions (« Écrire à Claude… », « Se connecter »), des tournures nominales pour les états
+  (« Notes enregistrées sur ce Mac à chaque frappe », « dev-alex attend un avis »). Les libellés à la première personne
+  (« Ma relecture », « Assignés à moi ») sont conservés.
+- **Claude** : les analyses, les conversations et l'aide sur les notes répondent dans le même registre. Les analyses déjà
+  enregistrées gardent leur formulation jusqu'à leur prochaine relance.
+
 ## 1.9.0 — 19 novembre 2026
 
 - **Accueil plus lisible** : la page occupe toute la largeur de la fenêtre ; les chiffres clés sont nettement plus grands ; le
