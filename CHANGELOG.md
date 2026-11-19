@@ -3,6 +3,12 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.11.0 — 19 novembre 2026
+
+- **Accueil épuré et réordonné** : la ligne des cinq chiffres clés disparaît. Sous le titre (« 17 actions en attente »)
+  viennent d'abord les actions du jour et l'attente des relectures, puis les demandes reçues et les branches Figma ; les
+  tickets créés et le forfait Claude passent en bas.
+
 ## 1.10.0 — 19 novembre 2026
 
 - **Textes sans tutoiement** : toute l'application adopte une formulation impersonnelle et professionnelle, sans « tu » ni
