@@ -168,5 +168,6 @@ problème (sans jeton, adresse e-mail ni contenu de ticket).
 
 ---
 
-© 2026 Yann Laplassotte. Bridges est diffusé sous licence [Creative Commons Attribution - Pas de modification 4.0 International (CC BY-ND 4.0)](LICENSE) :
-utilisation et partage autorisés, y compris dans un cadre professionnel, en citant l'auteur ; diffusion d'une version modifiée interdite.
+© 2026 Yann Laplassotte. Tous droits réservés. Bridges est un logiciel propriétaire gratuit : son utilisation est libre, y
+compris dans un cadre professionnel ; sa copie, sa modification, son adaptation, sa redistribution et sa revente sont
+interdites. Voir la [licence d'utilisation](LICENSE).

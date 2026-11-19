@@ -3,6 +3,13 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.5.2 — 19 novembre 2026
+
+- **Licence** : Bridges devient un logiciel propriétaire gratuit. Son utilisation reste libre, y compris dans un cadre
+  professionnel ; sa copie, sa modification, son adaptation, sa redistribution et sa revente sont interdites
+  ([licence d'utilisation](LICENSE)). Les versions jusqu'à la 1.5.1 restent régies par leur licence d'origine (CC BY-ND 4.0).
+- **Code source** : il n'est plus public. Le dépôt GitHub de Bridges présente l'application et diffuse ses versions.
+
 ## 1.5.1 — 19 novembre 2026
 
 - **Correctif — Anomalies** : l'écran ne faisait pas remonter les tickets qui ont réellement besoin d'une maquette. Il se
