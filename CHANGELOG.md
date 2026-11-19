@@ -3,6 +3,15 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.6.0 — 19 novembre 2026
+
+- **Relectures — comparaison avec la maquette** : un onglet « Comparaison », à côté de « Contexte », propose sur demande un
+  bilan complet des écarts entre la PR et la maquette Figma, écran par écran : écarts, états prévus, ajouts de la PR, éléments
+  identiques et points non vérifiables. Chaque écart indique s'il a été constaté sur la version de test ou lu dans le code, et
+  s'ajoute aux notes d'un clic. Claude constate sans juger : aucun verdict ni texte prêt à envoyer. La comparaison avec le rendu
+  nécessite Claude in Chrome dans les analyses (Réglages › Connecteurs) et une version de test de la PR.
+- **Réglages › Claude** : modèle propre à la comparaison (Sonnet par défaut) ; descriptions des analyses mises à jour.
+
 ## 1.5.2 — 19 novembre 2026
 
 - **Licence** : Bridges devient un logiciel propriétaire gratuit. Son utilisation reste libre, y compris dans un cadre

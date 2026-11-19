@@ -18,7 +18,7 @@ le contexte rédigé par Claude (lancé sur demande) et les retours de Claude, �
 | Écran | Objectif | Analyse de Claude, sur demande |
 |---|---|---|
 | Accueil | Voir ce qui demande de l'attention | Aucune : chiffres clés, actions du jour classées par urgence, graphiques (demandes reçues sur 14 jours, attente des relectures, avancement des tickets créés, état des branches) et usage du forfait Claude |
-| Demandes de relecture | Rendre un avis design sur une PR | Préparation de la relecture : ce que change la PR, pistes à vérifier, écrans à comparer et version de test. Aucun verdict ni commentaire rédigé : l'avis reste celui du designer |
+| Demandes de relecture | Rendre un avis design sur une PR | Préparation de la relecture : ce que change la PR, pistes à vérifier, écrans à comparer et version de test. Onglet « Comparaison » : bilan complet des écarts avec la maquette, écran par écran, chaque écart indiquant s'il a été vu sur la version de test ou lu dans le code. Aucun verdict ni commentaire rédigé : l'avis reste celui du designer |
 | Assignés à moi | Identifier le livrable attendu | Synthèse du ticket, livrables, écrans Figma concernés, points d'attention, branche à créer, puis mise à jour de la maquette par conversation |
 | Mentions | Répondre à une sollicitation | Contexte de l'échange et points à clarifier avant de répondre ; la réponse est rédigée par le designer |
 | Créés par moi | Suivre un ticket | Avancement, planning (jalon, échéance, sprint) et travail restant |
