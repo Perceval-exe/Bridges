@@ -3,6 +3,15 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.7.0 — 19 novembre 2026
+
+- **Discussion avec Claude à côté des notes** : sur écran large, la colonne de droite d'un élément propose deux onglets, les
+  notes (« Ma relecture », « Ma réponse », « Mes notes ») et « Discussion ». La conversation avec Claude s'ouvre à côté du
+  contexte, sans fenêtre par-dessus. Le dernier onglet choisi est conservé d'un élément à l'autre, et « Poser une question à
+  Claude… », dans le menu « Claude » des notes, ouvre directement l'onglet. La discussion peut s'agrandir en fenêtre ou se
+  poursuivre dans le Terminal.
+- **Mode démo** : une nouvelle discussion n'est plus envoyée à Claude.
+
 ## 1.6.0 — 19 novembre 2026
 
 - **Relectures — comparaison avec la maquette** : un onglet « Comparaison », à côté de « Contexte », propose sur demande un

@@ -39,6 +39,9 @@ une palette de commandes (⌘K), une barre latérale repliable (⌃⌘S) et un m
 - **Aide de Claude sur les notes** : formaliser, mettre en forme pour GitHub, vérifier les remarques (ticket, code, maquette),
   identifier les points non couverts, traduire en anglais. Claude travaille sur le texte du designer sans y ajouter d'avis ;
   ses retours s'affichent dans l'onglet « Retours de Claude ».
+- **Discussion** : sur écran large, l'onglet « Discussion », à côté des notes, ouvre la conversation avec Claude sur l'élément
+  sans masquer le contexte. Le dernier onglet choisi est conservé d'un élément à l'autre ; la discussion peut s'agrandir ou se
+  poursuivre dans le Terminal. En mode démo, aucune question n'est envoyée à Claude.
 
 ## Fonctionnement de Claude
 
