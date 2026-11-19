@@ -3,6 +3,19 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.9.0 — 19 novembre 2026
+
+- **Accueil plus lisible** : la page occupe toute la largeur de la fenêtre ; les chiffres clés sont nettement plus grands ; le
+  forfait Claude s'affiche en deux anneaux (session et semaine) ; « Demandes reçues » montre chaque jour sur un rail, les
+  relectures et les mentions empilées ; les tickets créés et les branches Figma ont un anneau de répartition avec le chiffre clé
+  au centre. Les cartes d'une même rangée ont la même hauteur.
+- **Barre latérale** : plus de compteurs à côté des entrées (le nombre reste dans l'infobulle et sur l'accueil). L'état de la
+  synchronisation devient une ligne, entre « Usage » et « Replier la barre latérale », qui actualise d'un clic. La marque est
+  alignée sur la barre du panneau.
+- **Relectures** : « Règle le ticket » s'affiche au-dessus du nom du ticket, qui garde toute la largeur.
+- **Textes** : l'accueil et l'en-tête des relectures passent à une formulation impersonnelle (« 16 actions en attente »,
+  « dev-alex attend un avis »).
+
 ## 1.8.0 — 19 novembre 2026
 
 - **Détail d'un élément — contexte et notes côte à côte, à la largeur voulue** : la colonne des notes est toujours affichée
