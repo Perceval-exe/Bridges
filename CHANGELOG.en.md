@@ -3,7 +3,12 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
-## 1.16.0 — November 20, 2026
+## 0.16.1 — November 20, 2026
+
+- **New numbering**: Bridges moves to 0.x. Version 1.0 will come when the app is complete; until then, each version moves up one step (0.17, 0.18…). Earlier versions are renumbered: 1.16 becomes 0.16, and so on.
+- **An installation on 1.x does not offer this update** (it believes it has a newer version): download Bridges once from bridges.works. Later updates are automatic again; settings, notes, and accounts are kept.
+
+## 0.16.0 — November 20, 2026
 
 - **Bridges in English**: the app speaks French or English (Settings › General › Language, otherwise the macOS language). Claude answers in the chosen language, the demo exists in both languages, and help links lead to the help center in that language. The changelog is also available in English.
 - **Bridges takes action**: in a conversation, Claude copies formatted text to the clipboard, opens a file or a screen in the Figma app, fills in the “My review” notes, and prepares a pending review on GitHub (summary and line comments). Nothing is published: the review stays visible to the designer alone until it is submitted on GitHub.
@@ -13,24 +18,24 @@ offers to install it on its own.
 - **Figma branches**: no more thumbnail; the Merge button stays on the right, the “Main file updated” warning on its left, and the branch’s age is given in its description.
 - **Lists**: the duration shown without a label moves into the details line, with what it measures (“updated 51d ago”, “requested 5h ago”).
 
-## 1.15.1 — November 20, 2026
+## 0.15.1 — November 20, 2026
 
 - **Demo mode**: the sample data follows the redesign of a data center monitoring app (heat map, alerts table, gauges, design system tokens and components), like the visuals on bridges.works.
 
-## 1.15.0 — November 20, 2026
+## 0.15.0 — November 20, 2026
 
 - **Launch**: the app opens on review requests.
 
-## 1.14.1 — November 20, 2026
+## 0.14.1 — November 20, 2026
 
 - **Fix**: display adjustments.
 
-## 1.14.0 — November 20, 2026
+## 0.14.0 — November 20, 2026
 
 - **Agents**: an agent carries Claude’s star, in the sidebar, the palette, the Agents screen, and the analyses.
 - **Fix**: two tickets whose descriptions had the same length no longer share their Figma links.
 
-## 1.13.0 — November 20, 2026
+## 0.13.0 — November 20, 2026
 
 - **More accurate missing mockups**: a ticket’s mockup is looked for everywhere, and no longer only in the ticket: its older comments, its parent ticket, the description, comments, and reviews of its PR, the Figma branches whose name cites the ticket, and the links added in Dev Mode (with the “file_dev_resources:read” permission on the Figma token). Figma links written without “https://” or on embed.figma.com are recognized.
 - **Only new UI counts**: a ticket is a missing mockup when its PR creates screens or components, or when the ticket says so (design label, “new screen,” “add a tab,” redesign). A lone UI word goes to “To check,” a PR that tweaks existing UI to “Tweaks to existing UI.” A search bar filters the screen.
@@ -39,17 +44,17 @@ offers to install it on its own.
 - **More readable lists**: a group’s heading sits close to its content, groups stand clearly apart, and a rule separates only the rows of the same group.
 - **Fix**: the “Need help?” popover opens above the button; its arrow is no longer bent.
 
-## 1.12.0 — November 20, 2026
+## 0.12.0 — November 20, 2026
 
 - **Help**: an online help center, bridges.works/en/help, opens from the Help menu (⌘?), the command palette, Settings › About, or the “?” icon next to the settings, at the bottom of the sidebar. Feedback is sent there without sign-up; “Copy and email support” attaches the diagnostic report to an email ready to complete.
 - **Accessibility**: “Reduce transparency” and “Differentiate without color” follow macOS and are set in Settings › Accessibility; state dots then take a distinct shape (urgent, to handle, ready). With VoiceOver, branches, conversations, and palette results are read as one block, group headers are collapsible headings, the divider between the context and the notes is adjusted with the arrow keys, and confirmation messages are announced.
 - **Wording**: the microphone and dictation access requests adopt the impersonal wording of the rest of the app.
 
-## 1.11.0 — November 19, 2026
+## 0.11.0 — November 19, 2026
 
 - **Fix**: display adjustments.
 
-## 1.10.0 — November 19, 2026
+## 0.10.0 — November 19, 2026
 
 - **Impersonal wording**: the whole app adopts impersonal, professional wording, with neither the informal nor the formal
   French form of address (“tu,” “vous”): the infinitive for actions (“Write to Claude…,” “Sign in”), nominal phrasing for states
@@ -58,7 +63,7 @@ offers to install it on its own.
 - **Claude**: analyses, conversations, and help with notes answer in the same register. Analyses already
   saved keep their wording until they are next rerun.
 
-## 1.9.0 — November 19, 2026
+## 0.9.0 — November 19, 2026
 
 - **Sidebar**: no more counters next to the entries (the number stays in the tooltip). The sync
   state becomes a row, between “Usage” and “Collapse sidebar,” that refreshes in one click. The brand is
@@ -66,7 +71,7 @@ offers to install it on its own.
 - **Reviews**: “Resolves ticket” appears above the ticket’s name, which keeps the full width.
 - **Wording**: the review header moves to impersonal wording (“dev-alex waiting for a review”).
 
-## 1.8.0 — November 19, 2026
+## 0.8.0 — November 19, 2026
 
 - **Item detail—context and notes side by side, at the chosen width**: the notes column is always shown
   (the “Hide my notes” button is gone). The rule that separates it from the context can be dragged to give more room to
@@ -75,7 +80,7 @@ offers to install it on its own.
 - **Finishing touches**: the “Copy and open the PR” button no longer touches the edges of the notes area; the active tab no longer has a
   border, on all tabs.
 
-## 1.7.0 — November 19, 2026
+## 0.7.0 — November 19, 2026
 
 - **Discussion with Claude next to the notes**: on a wide screen, the right column of an item offers two tabs, the
   notes (“My review,” “My reply,” “My notes”) and “Discussion.” The conversation with Claude opens next to the
@@ -84,7 +89,7 @@ offers to install it on its own.
   continued in Terminal.
 - **Demo mode**: a new discussion is no longer sent to Claude.
 
-## 1.6.0 — November 19, 2026
+## 0.6.0 — November 19, 2026
 
 - **Reviews—comparison with the mockup**: a “Comparison” tab, next to “Context,” offers on request a
   full account of the differences between the PR and the Figma mockup, screen by screen: differences, expected states, additions in the PR, identical
@@ -93,14 +98,14 @@ offers to install it on its own.
   requires Claude in Chrome in analyses (Settings › Connectors) and a test build of the PR.
 - **Settings › Claude**: a model specific to the comparison (Sonnet by default); analysis descriptions updated.
 
-## 1.5.2 — November 19, 2026
+## 0.5.2 — November 19, 2026
 
 - **License**: Bridges becomes proprietary software, provided free of charge. It may still be used freely, including for
   professional work; copying, modifying, adapting, redistributing, and reselling it are prohibited
-  ([license](LICENSE)). Versions up to 1.5.1 remain governed by their original license (CC BY-ND 4.0).
+  ([license](LICENSE)). Versions up to 0.5.1 remain governed by their original license (CC BY-ND 4.0).
 - **Source code**: it is no longer public. The Bridges repository on GitHub presents the app and distributes its versions.
 
-## 1.5.1 — November 19, 2026
+## 0.5.1 — November 19, 2026
 
 - **Fix—Missing mockups**: the screen did not surface the tickets that actually need a mockup. It
   merely set aside what looked technical, then sorted by date. It now looks for evidence and groups tickets
@@ -113,7 +118,7 @@ offers to install it on its own.
     to the top.
   - “Probably no impact on the UI” (collapsed).
 
-  Only the first two groups count as missing mockups. Three errors from 1.5.0 are fixed: a Python,
+  Only the first two groups count as missing mockups. Three errors from 0.5.0 are fixed: a Python,
   Ruby, Go, or Elixir file is no longer treated as technical by default; a ticket whose title announces a screen is no longer set aside because
   its PR has so far touched only the server; domain words (“pipeline,” “worker,” “logs”) are no longer enough to
   classify a title as technical.
@@ -129,7 +134,7 @@ offers to install it on its own.
   row per agent separated by a rule, the observation first and its question in gray. The instructions given to agents ask for
   shorter points.
 
-## 1.5.0 — November 19, 2026
+## 0.5.0 — November 19, 2026
 
 Version published early, without waiting for Monday.
 
@@ -139,7 +144,7 @@ Version published early, without waiting for Monday.
   as missing mockups and no longer trigger a notification. “This is a missing mockup” puts them back; a design label
   or a UI file in the PR always keeps them there.
 
-## 1.4.3 — November 19, 2026
+## 0.4.3 — November 19, 2026
 
 - **Fix—responsiveness**: the app stayed frozen for several seconds at each action once tickets and branches
   were numerous. Lists (branches, mentions, missing mockups, overlaps) are no longer recomputed at every display;
@@ -148,23 +153,23 @@ Version published early, without waiting for Monday.
 - **Notes**: typing no longer redraws the screen; writes to disk are batched.
 - **Sync**: analyzing Figma files and writing the cache no longer block the UI.
 
-## 1.4.2 — November 19, 2026
+## 0.4.2 — November 19, 2026
 
 - **Fix**: display adjustments.
 
-## 1.4.1 — November 19, 2026
+## 0.4.1 — November 19, 2026
 
 - **Fix—large screens**: detail views keep a maximum width, centered; the context fills its whole
   column instead of leaving a gap in the center.
 - **Sidebar**: the collapse button joins the entries at the bottom, aligned with their icons.
 
-## 1.4.0 — November 19, 2026
+## 0.4.0 — November 19, 2026
 
 Version published early, without waiting for Monday.
 
 - **Sidebar**: the “Accessibility” button is removed; the settings remain in Settings › Accessibility.
 
-## 1.3.0 — November 19, 2026
+## 0.3.0 — November 19, 2026
 
 Version published early, without waiting for Monday.
 
@@ -182,13 +187,13 @@ Version published early, without waiting for Monday.
   named by type.
 - **Interface**: collapsible sidebar (⌃⌘S), grouped settings, harmonized spacing and alignment.
 
-## 1.2.1 — November 19, 2026
+## 0.2.1 — November 19, 2026
 
 - **Layout**: roomier settings and detail views. Sections are separated by space and a rule rather than
   by nested frames; each heading sits closer to its content.
 - **Typography**: headings lightened by one weight.
 
-## 1.2.0 — November 19, 2026
+## 0.2.0 — November 19, 2026
 
 Version published early, without waiting for Monday.
 
@@ -204,7 +209,7 @@ Version published early, without waiting for Monday.
 - **First launch**: the Figma step separates account access from the choice of files; several files can be added.
 - **Fix**: the “…,” “Snooze,” “Import,” and “Ask an agent” menus open again.
 
-## 1.1.0 — November 18, 2026
+## 0.1.0 — November 18, 2026
 
 Version published early, without waiting for Monday.
 
@@ -219,7 +224,7 @@ Version published early, without waiting for Monday.
 - **Appearance**: dark theme by default; “Automatic” follows the macOS setting.
 - **License**: notices aligned with the CC BY-ND 4.0 license in the app.
 
-## 1.0.2 — November 18, 2026
+## 0.0.2 — November 18, 2026
 
 Corrective version.
 
@@ -228,7 +233,7 @@ Corrective version.
   with its usage level and the recommended choice.
 - **Pickers**: sync frequency, contrast, and text size use the app’s 40 px tabs.
 
-## 1.0.1 — November 18, 2026
+## 0.0.1 — November 18, 2026
 
 Corrective version, published outside the weekly schedule.
 
@@ -238,7 +243,7 @@ Corrective version, published outside the weekly schedule.
   flags it and offers “Update the analysis.” The previous analysis remains available.
 - **Usage**: no call to Claude happens without an action by the user.
 
-## 1.0.0 — November 18, 2026
+## 0.0.0 — November 18, 2026
 
 First official version.
 
