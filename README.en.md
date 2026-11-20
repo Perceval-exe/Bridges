@@ -2,7 +2,7 @@
 
 [Version française](README.md)
 
-![Bridges on a MacBook Pro: a review request, with the context prepared by Claude and the designer’s notes](docs/bridges.jpg)
+![Bridges on a MacBook Pro: a review request, with the context prepared by Claude and the designer’s notes](docs/bridges-en.jpg)
 <sub>Demo mode of the app: sample data.</sub>
 
 Bridges is a macOS app for product designers. It connects Figma mockups to the development work tracked
