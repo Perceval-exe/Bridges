@@ -3,6 +3,12 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.14.0 — 20 novembre 2026
+
+- **Nouvel accueil** : quatre chiffres clés (relectures en attente, mentions sans réponse, branches prêtes à merger, anomalies), chacun ouvrant son écran ; l'attente de chaque relecture en colonnes, la plus ancienne mise en avant ; « À faire maintenant » avec l'état de chaque action en toutes lettres (Urgent, À relire, À répondre, À maquetter, À merger) ; l'avancement des tickets créés en anneau ; les branches Figma en tableau. Les graphiques passent en gris neutres : seules les couleurs d'état signalent.
+- **Agents** : un agent porte l'étoile de Claude, dans la barre latérale, la palette, l'écran Agents et les analyses.
+- **Correctifs** : les cartes de l'accueil ne débordent plus de la fenêtre ; deux tickets dont la description avait la même longueur ne partagent plus leurs liens Figma.
+
 ## 1.13.0 — 20 novembre 2026
 
 - **Anomalies plus justes** : la maquette d'un ticket est cherchée partout, et plus seulement dans le ticket : ses commentaires anciens, son ticket parent, la description, les commentaires et les avis de sa PR, les branches Figma dont le nom cite le ticket et les liens posés en mode Dev (avec l'autorisation « file_dev_resources:read » du jeton Figma). Les liens Figma écrits sans « https:// » ou sur embed.figma.com sont reconnus.
