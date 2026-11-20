@@ -3,6 +3,12 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.18.1 — November 20, 2026
+
+- **Easier-to-read differences**: each difference has more room, and the mockup and PR values sit on two labeled lines instead of one long struck-through sentence. Same treatment for suggestions.
+- **No more bots**: comments from apps (deployments, coverage, dependencies…) no longer appear in “Latest comment” or “What’s been said”, even when their name does not include “[bot]”.
+- **Screenshots**: the test build posted by a deployment bot (Railway, Vercel, Netlify…) is passed to Claude, and a difference read in the code can now get its screenshot. When there is none, the Differences tab says why: no test build, a page behind a sign-in, or Claude in Chrome not allowed in analyses.
+
 ## 0.18.0 — November 20, 2026
 
 - **Review redesigned**: one third for the context, two thirds for the review (adjustable divider, double-click to reset). On the left, Claude’s summary in a card with “Refresh the context”, “View ticket”, “View the mockup”, and the latest comment from a person.

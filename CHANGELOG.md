@@ -3,6 +3,12 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.18.1 — 20 novembre 2026
+
+- **Écarts plus lisibles** : chaque écart respire davantage, et la maquette et la PR sont sur deux lignes étiquetées au lieu d'une longue phrase barrée. Même traitement pour les suggestions.
+- **Plus de robots** : les commentaires des applications (déploiement, couverture, dépendances…) n'apparaissent plus dans « Dernier commentaire » ni dans « Ce qui a été dit », même quand leur nom ne porte pas « [bot] ».
+- **Captures** : la version de test publiée par un robot de déploiement (Railway, Vercel, Netlify…) est transmise à Claude, et un écart lu dans le code peut désormais avoir sa capture. Quand il n'y en a pas, l'onglet Écarts dit pourquoi : pas de version de test, page protégée par une connexion, ou Claude in Chrome non autorisé dans les analyses.
+
 ## 0.18.0 — 20 novembre 2026
 
 - **Relecture repensée** : un tiers pour le contexte, deux tiers pour la relecture (séparation réglable, double-clic pour revenir). À gauche, le résumé de Claude dans une carte avec « Actualiser le contexte », « Voir le ticket », « Voir la maquette » et le dernier commentaire d'un humain.
