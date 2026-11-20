@@ -3,6 +3,10 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.18.2 — November 20, 2026
+
+- **Sign out**: every Claude account has its “Sign out” button, the main account included (with a confirmation: that one also signs Claude Code out in the Terminal). The account card shows whether it is signed in. “Remove this account” signs out before removing. If the active account is signed out, Bridges switches to another signed-in account.
+
 ## 0.18.1 — November 20, 2026
 
 - **Easier-to-read differences**: each difference has more room, and the mockup and PR values sit on two labeled lines instead of one long struck-through sentence. Same treatment for suggestions.

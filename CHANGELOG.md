@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.18.2 — 20 novembre 2026
+
+- **Se déconnecter** : chaque compte Claude a son bouton « Se déconnecter », compte principal compris (avec confirmation : ce compte-là déconnecte aussi Claude Code dans le Terminal). La carte du compte indique s'il est connecté. « Retirer ce compte » déconnecte avant de retirer. Si le compte actif est déconnecté, Bridges passe sur un autre compte connecté.
+
 ## 0.18.1 — 20 novembre 2026
 
 - **Écarts plus lisibles** : chaque écart respire davantage, et la maquette et la PR sont sur deux lignes étiquetées au lieu d'une longue phrase barrée. Même traitement pour les suggestions.
