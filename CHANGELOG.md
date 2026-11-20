@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.14.1 — 20 novembre 2026
+
+- **Accueil** : l'avancement des tickets garde l'anneau et sa légende côte à côte dès une fenêtre de 1 280 points, centrés dans leur carte.
+
 ## 1.14.0 — 20 novembre 2026
 
 - **Nouvel accueil** : quatre chiffres clés (relectures en attente, mentions sans réponse, branches prêtes à merger, anomalies), chacun ouvrant son écran ; l'attente de chaque relecture en colonnes, la plus ancienne mise en avant ; « À faire maintenant » avec l'état de chaque action en toutes lettres (Urgent, À relire, À répondre, À maquetter, À merger) ; l'avancement des tickets créés en anneau ; les branches Figma en tableau. Les graphiques passent en gris neutres : seules les couleurs d'état signalent.
