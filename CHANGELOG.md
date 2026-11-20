@@ -3,6 +3,17 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.18.0 — 20 novembre 2026
+
+- **Relecture repensée** : un tiers pour le contexte, deux tiers pour la relecture (séparation réglable, double-clic pour revenir). À gauche, le résumé de Claude dans une carte avec « Actualiser le contexte », « Voir le ticket », « Voir la maquette » et le dernier commentaire d'un humain.
+- **Lancer la review** : rien ne part sans le designer. Pendant que Claude relit, ses étapes réelles s'affichent (PR, ticket, maquette, écrans regardés), avec le temps et les jetons consommés, et « Arrêter » coupe tout de suite. « Rédiger sans Claude » reste possible.
+- **Trois onglets** : Écarts, Suggestions, Relecture. La relecture est pré-remplie avec les écarts.
+- **Aligner sur Figma ou sur le code** : chaque écart est dans la relecture (Figma fait référence). « Code » l'en retire et Claude met la maquette à jour dans Figma, dans une branche si possible, avec « Arrêter ».
+- **Captures annotées** : un écart vu sur la version de test a sa capture, l'élément encadré et l'écart noté. « Captures de la PR » ouvre le dossier de la PR, supprimé quand elle est fusionnée ou fermée.
+- **Cartes de Claude** : de vraies cartes sous les paragraphes, avec un champ pour échanger avec Claude. « Intégrer au paragraphe » propose le paragraphe réécrit, à accepter ou non. « Réagir » s'arrête à tout moment.
+- **Issues** : une suggestion ou une carte qui dépasse la PR devient une issue à créer ; « Préparer sur GitHub » l'ouvre pré-remplie, à valider sur GitHub.
+- **Préparer sur GitHub** : Claude met la relecture en forme dans la langue de l'équipe sur le dépôt, puis la review en attente est créée, avec les commentaires de ligne. Le menu « ··· » disparaît.
+
 ## 0.17.0 — 20 novembre 2026
 
 - **Relecture avec Claude** : une PR se relit en deux moitiés. La séparation se fait glisser ; un double-clic revient au 50/50. À gauche, le contexte, qui défile seul : en bref, le ticket, les avis, ce qui a été dit (en entier), la maquette, ce qui se passe autour. À droite, deux onglets : « Écarts » (une liste à trier, aussi longue soit-elle) et « Ma relecture », sur toute la hauteur.

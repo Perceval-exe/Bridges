@@ -3,6 +3,17 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.18.0 — November 20, 2026
+
+- **Review redesigned**: one third for the context, two thirds for the review (adjustable divider, double-click to reset). On the left, Claude’s summary in a card with “Refresh the context”, “View ticket”, “View the mockup”, and the latest comment from a person.
+- **Start the review**: nothing runs without the designer. While Claude reviews, its actual steps appear (PR, ticket, mockup, screens viewed), with the time and tokens used, and “Stop” cuts it off right away. “Write without Claude” is still available.
+- **Three tabs**: Differences, Suggestions, Review. The review is pre-filled with the differences.
+- **Align with Figma or with the code**: each difference is in the review (Figma is the reference). “Code” takes it out and Claude updates the mockup in Figma, in a branch when possible, with “Stop”.
+- **Annotated screenshots**: a difference seen in the test build gets its screenshot, with the element framed and the difference noted. “PR screenshots” opens the PR’s folder, deleted when it is merged or closed.
+- **Claude’s cards**: real cards under the paragraphs, with a field to talk with Claude. “Work into the paragraph” proposes the rewritten paragraph, to accept or not. “React” can be stopped at any time.
+- **Issues**: a suggestion or a card that goes beyond the PR becomes an issue to create; “Prepare on GitHub” opens it pre-filled, to submit on GitHub.
+- **Prepare on GitHub**: Claude formats the review in the language the team uses on the repository, then the pending review is created, with line comments. The “···” menu is gone.
+
 ## 0.17.0 — November 20, 2026
 
 - **Reviewing with Claude**: a PR is reviewed in two halves. The divider can be dragged; a double-click returns to 50/50. On the left, the context, which scrolls on its own: in brief, the ticket, the reviews, what has been said (in full), the mockup, what is happening around it. On the right, two tabs: “Differences” (a list to sort, however long) and “My review”, at full height.
