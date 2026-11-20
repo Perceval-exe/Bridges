@@ -1,5 +1,7 @@
 # Bridges
 
+[English version](README.en.md)
+
 ![Bridges sur un MacBook Pro : une demande de relecture, avec le contexte préparé par Claude et les notes du designer](docs/bridges.jpg)
 <sub>Mode démo de l'application : données fictives.</sub>
 

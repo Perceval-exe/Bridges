@@ -3,6 +3,16 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.16.0 — 20 novembre 2026
+
+- **Bridges en anglais** : l'application parle français ou anglais (Réglages › Général › Langue, sinon celle de macOS). Claude répond dans la langue choisie, la démo existe dans les deux langues et les liens d'aide mènent au centre d'aide de la langue. Le journal des versions existe aussi en anglais.
+- **Bridges agit** : dans une conversation, Claude copie un texte mis en forme dans le presse-papiers, ouvre un fichier ou un écran dans l'app Figma, remplit les notes « Ma relecture » et prépare une review en attente sur GitHub (résumé et commentaires de lignes). Rien n'est publié : la review reste visible du seul designer jusqu'à sa validation sur GitHub.
+- **Modifier Figma** : avec le connecteur Figma de Claude Code, Claude modifie les fichiers à la demande dans toutes les conversations, de préférence dans une branche, et demande confirmation avant de toucher un fichier principal.
+- **Relecture** : « Préparer sur GitHub » transforme les notes en review en attente ; « Copier et ouvrir la PR » reste dans le menu du bouton. Chaque réponse de Claude se copie d'un clic, et les liens Figma s'ouvrent dans l'app Figma.
+- **Maquettes manquantes** (anciennement « Anomalies ») : les groupes disent ce qu'il y a à faire (Construit sans maquette, Maquette attendue, À trancher…). Sur chaque ticket à trancher, « Pas besoin de maquette » ou « Maquette nécessaire » ; la décision se reprend à tout moment. Les tickets sans aucun indice attendent à part.
+- **Branches Figma** : plus d'aperçu ; le bouton Merger reste à droite, l'alerte « Mise à jour du principal » à sa gauche, et l'âge de la branche est dit dans sa description.
+- **Listes** : la durée affichée sans légende passe dans la ligne de repères, avec ce qu'elle mesure (« mis à jour il y a 51 j », « demandée il y a 5 h »).
+
 ## 1.15.1 — 20 novembre 2026
 
 - **Mode démo** : les données fictives suivent la refonte d'une application de supervision de data centers (carte thermique, tableau des alertes, jauges, tokens et composants du design system), comme les visuels de bridges.works.
