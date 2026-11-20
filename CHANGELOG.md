@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.15.1 — 20 novembre 2026
+
+- **Mode démo** : les données fictives suivent la refonte d'une application de supervision de data centers (carte thermique, tableau des alertes, jauges, tokens et composants du design system), comme les visuels de bridges.works.
+
 ## 1.15.0 — 20 novembre 2026
 
 - **Ouverture** : l'application s'ouvre sur les demandes de relecture.
