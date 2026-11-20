@@ -3,6 +3,17 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.17.0 — 20 novembre 2026
+
+- **Relecture avec Claude** : une PR se relit en deux moitiés. La séparation se fait glisser ; un double-clic revient au 50/50. À gauche, le contexte, qui défile seul : en bref, le ticket, les avis, ce qui a été dit (en entier), la maquette, ce qui se passe autour. À droite, deux onglets : « Écarts » (une liste à trier, aussi longue soit-elle) et « Ma relecture », sur toute la hauteur.
+- **Écarts avec la maquette** : Claude relève seulement ce qui se vérifie (une taille, un espacement, un token, une variante, un état). Il précise si l'écart a été vu sur la version de test ou lu dans le code. Chaque écart se garde (il entre dans la relecture, marqué d'un point vert) ou s'écarte. Le relevé se lance à la main, comme la synchro ; la pastille passe à l'orange quand la PR a changé depuis.
+- **Réagir** : Claude met en contexte ce qui est écrit ou dicté, en cartes sous les paragraphes. Exemples : une PR déjà en cours sur le même sujet et la personne à qui en parler, ou une remarque qui contredit le ticket ou la maquette, avec ce que changer d'avis impliquerait. « Adapter la maquette dans Figma » lui fait modifier le fichier. La relecture reste écrite par le designer.
+- **Idées de Claude** : alternatives et conseils, repliés sous la relecture, à lire une fois les écarts triés. Chaque idée s'ajoute à la relecture d'un clic.
+- **Préparer sur GitHub** : un écart gardé lu dans le code devient un commentaire sur sa ligne dans la review en attente. La mise en forme pour GitHub suit la langue de l'équipe sur le dépôt (anglais ou français), quelle que soit celle des notes.
+- **Relevé automatique** (facultatif, Réglages › Claude) : à la première ouverture du matin (ou à 10 h si Bridges est déjà ouvert), puis à 14 h 30. Il concerne les PR qui attendent un avis et ont changé depuis le dernier relevé.
+- **Maquettes en liens** : plus d'aperçu d'image, qui montrait souvent la couverture du fichier. À la place : le nom de l'écran et « Ouvrir dans Figma ».
+- **Claude mieux rangé ailleurs** : sur un ticket, une mention ou une branche, la colonne de gauche sert à comprendre (Contexte, Analyse), celle de droite à agir (notes, Claude). Une seule entrée Claude dans la barre latérale (Discussions, Agents), et un seul libellé dans les menus : « Demander à Claude ».
+
 ## 0.16.1 — 20 novembre 2026
 
 - **Nouvelle numérotation** : Bridges passe en 0.x. La version 1.0 viendra quand l'application sera aboutie ; d'ici là, chaque version avance d'un cran (0.17, 0.18…). Les versions précédentes sont renumérotées : la 1.16 devient la 0.16, et ainsi de suite.

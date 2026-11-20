@@ -3,6 +3,17 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.17.0 — November 20, 2026
+
+- **Reviewing with Claude**: a PR is reviewed in two halves. The divider can be dragged; a double-click returns to 50/50. On the left, the context, which scrolls on its own: in brief, the ticket, the reviews, what has been said (in full), the mockup, what is happening around it. On the right, two tabs: “Differences” (a list to sort, however long) and “My review”, at full height.
+- **Differences with the mockup**: Claude only reports what can be verified (a size, a spacing, a token, a variant, a state). It says whether the difference was seen in the test build or read in the code. Each difference is kept (it goes into the review, marked with a green dot) or set aside. The check is started by hand, like the sync; the dot turns orange when the PR has changed since.
+- **React**: Claude puts what is written or dictated in context, as cards under the paragraphs. For example: a PR already in progress on the same subject and the person to talk to, or a remark that contradicts the ticket or the mockup, with what changing course would involve. “Adapt the mockup in Figma” has it edit the file. The review is still written by the designer.
+- **Ideas from Claude**: alternatives and advice, collapsed under the review, to read once the differences are sorted. Each idea is added to the review in one click.
+- **Prepare on GitHub**: a kept difference read in the code becomes a comment on its line in the pending review. GitHub formatting follows the language the team uses on the repository (English or French), whatever the language of the notes.
+- **Automatic check** (optional, Settings › Claude): at the first launch in the morning (or at 10 AM if Bridges is already open), then at 2:30 PM. It covers PRs waiting for a review that have changed since the last check.
+- **Mockups as links**: no more image preview, which often showed the file’s cover. Instead: the screen name and “Open in Figma”.
+- **Claude better organized elsewhere**: on a ticket, a mention, or a branch, the left column is for understanding (Context, Analysis) and the right one for acting (notes, Claude). A single Claude entry in the sidebar (Conversations, Agents), and a single label in menus: “Ask Claude”.
+
 ## 0.16.1 — November 20, 2026
 
 - **New numbering**: Bridges moves to 0.x. Version 1.0 will come when the app is complete; until then, each version moves up one step (0.17, 0.18…). Earlier versions are renumbered: 1.16 becomes 0.16, and so on.
