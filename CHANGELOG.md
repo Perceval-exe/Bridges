@@ -3,6 +3,13 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.12.0 — 20 novembre 2026
+
+- **Accueil en trois colonnes** : quatre graphiques sur deux rangées (attente des relectures, demandes reçues, branches Figma, tickets créés) et la liste « À faire maintenant » sur toute la hauteur de la troisième colonne. Le titre « N actions en attente » et la carte du forfait Claude disparaissent : la date suffit, et l'usage reste dans la barre latérale.
+- **Aide** : un centre d'aide en ligne, bridges.works/aide, s'ouvre depuis le menu Aide (⌘?), la palette de commandes, Réglages › À propos ou l'icône « ? » à côté des réglages, en bas de la barre latérale. Les retours s'y envoient sans inscription ; « Copier et écrire à l'assistance » joint le diagnostic à un e-mail prêt à compléter.
+- **Accessibilité** : « Réduire la transparence » et « Différencier sans couleur » suivent macOS et se règlent dans Réglages › Accessibilité ; les pastilles d'état prennent alors une forme distincte (urgent, à traiter, prêt). Avec VoiceOver, les branches, les conversations et les résultats de la palette se lisent d'un bloc, les en-têtes de groupe sont des titres repliables, la séparation entre le contexte et les notes se règle aux flèches, et les messages de confirmation sont annoncés.
+- **Textes** : les demandes d'accès au micro et à la dictée adoptent la formulation impersonnelle du reste de l'application.
+
 ## 1.11.0 — 19 novembre 2026
 
 - **Accueil épuré et réordonné** : la ligne des cinq chiffres clés disparaît. Sous le titre (« 17 actions en attente »)

@@ -120,12 +120,17 @@ Réglages › Accessibilité donne accès aux réglages suivants :
 - **Contraste** : Standard, avec un rapport d'au moins 4,5:1 pour tous les textes (WCAG AA), ou Renforcé, avec un rapport d'au
   moins 7:1 (AAA) et des filets plus marqués.
 - **Réduction des animations** : suppression des transitions, rotations et reflets animés.
+- **Réduction de la transparence** : fond plus sombre derrière la palette de commandes et la fenêtre de mise à jour.
+- **Différenciation sans couleur** : les pastilles d'état prennent une forme distincte (urgent, à traiter, prêt).
 - **Liens soulignés** : identification des liens vers GitHub et Figma indépendamment de la couleur.
 - **Focus renforcé** : contour épais autour de l'élément sélectionné au clavier.
 - **Texte espacé** et **taille du texte** (standard, grand, très grand).
 
-Par défaut, Bridges applique les réglages d'accessibilité de macOS. Les boutons et les champs mesurent 40 px de haut ; chaque ligne
-de liste est restituée d'un seul tenant par VoiceOver.
+Par défaut, Bridges applique les réglages d'accessibilité de macOS. Les boutons et les champs mesurent 40 px de haut.
+
+Avec VoiceOver, chaque ligne de liste (relectures, tickets, branches, conversations, résultats de la palette) est restituée d'un
+seul tenant et s'ouvre comme un bouton ; les en-têtes de groupe sont des titres, repliables ; la séparation entre le contexte et
+les notes se règle avec les flèches ; les messages de confirmation sont annoncés.
 
 ## Installation
 
@@ -168,6 +173,13 @@ Réglages › Données détaille les informations lues par Bridges, celles trans
 (trousseau, `~/Library/Application Support/Bridges`, `~/Library/Caches/Bridges`), et permet de tout effacer. Aucune statistique ni
 aucun rapport n'est transmis à un tiers. Réglages › À propos indique la version et produit un diagnostic à transmettre en cas de
 problème (sans jeton, adresse e-mail ni contenu de ticket).
+
+## Aide
+
+Le [centre d'aide](https://bridges.works/aide) répond aux questions courantes (installation, connexions, Claude, problèmes
+fréquents) et reçoit les retours, sans inscription. Dans l'application, il s'ouvre depuis le menu Aide (⌘?), la palette de
+commandes ou Réglages › À propos. En cas de blocage : [hello@bridges.works](mailto:hello@bridges.works), avec le diagnostic de
+Réglages › À propos (bouton « Copier et écrire à l'assistance »).
 
 ---
 
