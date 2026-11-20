@@ -3,15 +3,18 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.15.0 — 20 novembre 2026
+
+- **Ouverture** : l'application s'ouvre sur les demandes de relecture.
+
 ## 1.14.1 — 20 novembre 2026
 
-- **Accueil** : l'avancement des tickets garde l'anneau et sa légende côte à côte dès une fenêtre de 1 280 points, centrés dans leur carte.
+- **Correctif** : ajustements d'affichage.
 
 ## 1.14.0 — 20 novembre 2026
 
-- **Nouvel accueil** : quatre chiffres clés (relectures en attente, mentions sans réponse, branches prêtes à merger, anomalies), chacun ouvrant son écran ; l'attente de chaque relecture en colonnes, la plus ancienne mise en avant ; « À faire maintenant » avec l'état de chaque action en toutes lettres (Urgent, À relire, À répondre, À maquetter, À merger) ; l'avancement des tickets créés en anneau ; les branches Figma en tableau. Les graphiques passent en gris neutres : seules les couleurs d'état signalent.
 - **Agents** : un agent porte l'étoile de Claude, dans la barre latérale, la palette, l'écran Agents et les analyses.
-- **Correctifs** : les cartes de l'accueil ne débordent plus de la fenêtre ; deux tickets dont la description avait la même longueur ne partagent plus leurs liens Figma.
+- **Correctif** : deux tickets dont la description avait la même longueur ne partagent plus leurs liens Figma.
 
 ## 1.13.0 — 20 novembre 2026
 
@@ -24,16 +27,13 @@ propose elle-même son installation.
 
 ## 1.12.0 — 20 novembre 2026
 
-- **Accueil en trois colonnes** : quatre graphiques sur deux rangées (attente des relectures, demandes reçues, branches Figma, tickets créés) et la liste « À faire maintenant » sur toute la hauteur de la troisième colonne. Le titre « N actions en attente » et la carte du forfait Claude disparaissent : la date suffit, et l'usage reste dans la barre latérale.
 - **Aide** : un centre d'aide en ligne, bridges.works/aide, s'ouvre depuis le menu Aide (⌘?), la palette de commandes, Réglages › À propos ou l'icône « ? » à côté des réglages, en bas de la barre latérale. Les retours s'y envoient sans inscription ; « Copier et écrire à l'assistance » joint le diagnostic à un e-mail prêt à compléter.
 - **Accessibilité** : « Réduire la transparence » et « Différencier sans couleur » suivent macOS et se règlent dans Réglages › Accessibilité ; les pastilles d'état prennent alors une forme distincte (urgent, à traiter, prêt). Avec VoiceOver, les branches, les conversations et les résultats de la palette se lisent d'un bloc, les en-têtes de groupe sont des titres repliables, la séparation entre le contexte et les notes se règle aux flèches, et les messages de confirmation sont annoncés.
 - **Textes** : les demandes d'accès au micro et à la dictée adoptent la formulation impersonnelle du reste de l'application.
 
 ## 1.11.0 — 19 novembre 2026
 
-- **Accueil épuré et réordonné** : la ligne des cinq chiffres clés disparaît. Sous le titre (« 17 actions en attente »)
-  viennent d'abord les actions du jour et l'attente des relectures, puis les demandes reçues et les branches Figma ; les
-  tickets créés et le forfait Claude passent en bas.
+- **Correctif** : ajustements d'affichage.
 
 ## 1.10.0 — 19 novembre 2026
 
@@ -46,16 +46,11 @@ propose elle-même son installation.
 
 ## 1.9.0 — 19 novembre 2026
 
-- **Accueil plus lisible** : la page occupe toute la largeur de la fenêtre ; les chiffres clés sont nettement plus grands ; le
-  forfait Claude s'affiche en deux anneaux (session et semaine) ; « Demandes reçues » montre chaque jour sur un rail, les
-  relectures et les mentions empilées ; les tickets créés et les branches Figma ont un anneau de répartition avec le chiffre clé
-  au centre. Les cartes d'une même rangée ont la même hauteur.
-- **Barre latérale** : plus de compteurs à côté des entrées (le nombre reste dans l'infobulle et sur l'accueil). L'état de la
+- **Barre latérale** : plus de compteurs à côté des entrées (le nombre reste dans l'infobulle). L'état de la
   synchronisation devient une ligne, entre « Usage » et « Replier la barre latérale », qui actualise d'un clic. La marque est
   alignée sur la barre du panneau.
 - **Relectures** : « Règle le ticket » s'affiche au-dessus du nom du ticket, qui garde toute la largeur.
-- **Textes** : l'accueil et l'en-tête des relectures passent à une formulation impersonnelle (« 16 actions en attente »,
-  « dev-alex attend un avis »).
+- **Textes** : l'en-tête des relectures passe à une formulation impersonnelle (« dev-alex attend un avis »).
 
 ## 1.8.0 — 19 novembre 2026
 
@@ -141,24 +136,18 @@ Version publiée par anticipation, sans attendre le lundi.
 
 ## 1.4.2 — 19 novembre 2026
 
-- **Accueil** : graphiques en nuances de gris bleuté (une seule teinte, quatre clartés contrastées) ; les couleurs franches
-  restent réservées aux signaux d'état.
+- **Correctif** : ajustements d'affichage.
 
 ## 1.4.1 — 19 novembre 2026
 
 - **Correctif — grands écrans** : les vues détaillées gardent une largeur maximale, centrée ; le contexte occupe toute sa
   colonne au lieu de laisser un vide au centre.
-- **Accueil** : graphiques redessinés (cartes à filet fin, barres fines, chiffres clés en tête de chaque graphique, détail au
-  survol) et chiffres clés regroupés en une seule bande.
 - **Barre latérale** : le bouton de repli rejoint les entrées du bas, aligné sur leurs icônes.
 
 ## 1.4.0 — 19 novembre 2026
 
 Version publiée par anticipation, sans attendre le lundi.
 
-- **Accueil** : nouvel écran d'ouverture. Chiffres clés (relectures, mentions, tickets assignés, anomalies, branches à
-  merger), actions du jour classées par urgence avec accès direct à l'élément, graphiques (demandes reçues sur 14 jours,
-  attente des relectures, avancement des tickets créés, état des branches Figma) et usage du forfait Claude.
 - **Barre latérale** : le bouton « Accessibilité » est retiré ; les réglages restent dans Réglages › Accessibilité.
 
 ## 1.3.0 — 19 novembre 2026
@@ -198,7 +187,7 @@ Version publiée par anticipation, sans attendre le lundi.
   signalés sur les tickets, les branches et les relectures, avec l'indication d'une dépendance déjà notée ou non.
 - **Liens Figma cassés** : les liens de tickets qui ne mènent plus à aucun écran sont signalés.
 - **Délai de relecture** : le réglage est retiré.
-- **Accueil** : l'étape Figma distingue l'accès au compte et le choix des fichiers ; plusieurs fichiers peuvent être ajoutés.
+- **Premier lancement** : l'étape Figma distingue l'accès au compte et le choix des fichiers ; plusieurs fichiers peuvent être ajoutés.
 - **Correctif** : les menus « … », « Rappeler plus tard », « Importer » et « Demander à un agent » s'ouvrent de nouveau.
 
 ## 1.1.0 — 18 novembre 2026
