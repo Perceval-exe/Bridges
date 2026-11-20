@@ -3,6 +3,15 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 1.13.0 — 20 novembre 2026
+
+- **Anomalies plus justes** : la maquette d'un ticket est cherchée partout, et plus seulement dans le ticket : ses commentaires anciens, son ticket parent, la description, les commentaires et les avis de sa PR, les branches Figma dont le nom cite le ticket et les liens posés en mode Dev (avec l'autorisation « file_dev_resources:read » du jeton Figma). Les liens Figma écrits sans « https:// » ou sur embed.figma.com sont reconnus.
+- **Seule l'interface nouvelle compte** : un ticket est une anomalie quand sa PR crée des écrans ou des composants, ou quand le ticket l'annonce (libellé de design, « nouvel écran », « ajouter un onglet », refonte). Un mot d'interface isolé passe en « À vérifier », une PR qui retouche l'existant en « Retouches de l'existant ». Une barre de recherche filtre l'écran.
+- **États en toutes lettres** : dans les listes, les icônes d'état laissent place à un point de couleur suivi du mot (« PR ouverte », « En cours », « À démarrer », « Changements demandés », « Brouillon »). Vert, orange et rouge sont communs à toute l'application.
+- **Barre latérale** : le bouton de repli passe à droite de « Bridges », en icône seule. La synchronisation montre une pastille verte, orange ou rouge, et la ligne pulse pendant la mise à jour. Les notifications affichent le nombre seul.
+- **Listes plus lisibles** : l'intitulé d'un groupe colle à son contenu, les groupes se détachent nettement, et un filet ne sépare que les lignes d'un même groupe.
+- **Correctif** : la bulle « Besoin d'aide ? » s'ouvre au-dessus du bouton ; sa pointe n'est plus tordue.
+
 ## 1.12.0 — 20 novembre 2026
 
 - **Accueil en trois colonnes** : quatre graphiques sur deux rangées (attente des relectures, demandes reçues, branches Figma, tickets créés) et la liste « À faire maintenant » sur toute la hauteur de la troisième colonne. Le titre « N actions en attente » et la carte du forfait Claude disparaissent : la date suffit, et l'usage reste dans la barre latérale.
