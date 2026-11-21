@@ -3,6 +3,11 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.20.0 — November 21, 2026
+
+- **Instrument Sans everywhere**: the app now uses the same typeface as the website and the Figma design system. It is bundled (free OFL license), and the text size setting still applies.
+- **Linear as review context**: Settings › Tools has a new “Linear” block that takes a read-only key. When a PR mentions a Linear issue (for example BRI-12 in its title or branch), Bridges reads that issue, its comments, links and parent issue, and gives them to Claude to prepare the review. The context column offers “View issue BRI-12”, and “View mockup” also finds the Figma link in the Linear issue. Bridges never writes to Linear.
+
 ## 0.19.0 — November 21, 2026
 
 - **Choose your tools**: during setup, Bridges first asks for the team's tools (code on GitHub, issues on GitHub, Figma, Claude), and each one can be skipped. GitLab, Jira and Linear are announced. Only the steps for the chosen tools remain.

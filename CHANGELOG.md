@@ -3,6 +3,11 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.20.0 — 21 novembre 2026
+
+- **Instrument Sans partout** : l’app adopte la police du site et du design system Figma. Elle est embarquée (licence libre OFL), et le réglage de taille du texte suit toujours.
+- **Linear comme contexte des relectures** : dans Réglages › Outils, un nouveau bloc « Linear » accepte une clé en lecture seule. Quand une PR cite un ticket Linear (par exemple BRI-12 dans son titre ou sa branche), Bridges lit ce ticket, ses commentaires, ses liens et son ticket parent, et les donne à Claude pour préparer la relecture. La colonne de contexte propose « Voir le ticket BRI-12 », et « Voir la maquette » trouve aussi le lien Figma dans le ticket Linear. Bridges n’écrit jamais dans Linear.
+
 ## 0.19.0 — 21 novembre 2026
 
 - **Outils au choix** : à la configuration, Bridges demande d'abord les outils de l'équipe (code sur GitHub, tickets sur GitHub, Figma, Claude), et chacun peut être passé. GitLab, Jira et Linear sont annoncés. Seules les étapes des outils retenus restent.
