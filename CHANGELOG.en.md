@@ -3,6 +3,10 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.20.2 — November 21, 2026
+
+- **Fix**: a follow-up now opens in Linear when the PR mentions a Linear issue, and in GitHub otherwise. Still prefilled, and nothing is created until confirmed.
+
 ## 0.20.1 — November 21, 2026
 
 - **Decisions picked up from comments**: Claude finds the trade-offs made along the way in the issue (GitHub or Linear), its parent issue and the PR, ignoring bots. They appear in a “Decisions” block in the context column, with their author, date and source. A difference that follows a decision is marked as such and is no longer added to the review automatically.

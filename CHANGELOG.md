@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.20.2 — 21 novembre 2026
+
+- **Correctif** : un retour à suivre s’ouvre désormais dans Linear quand la PR cite un ticket Linear, et dans GitHub sinon. Toujours pré-rempli, et rien n’est créé avant validation.
+
 ## 0.20.1 — 21 novembre 2026
 
 - **Décisions relevées dans les commentaires** : Claude repère les arbitrages pris en route dans le ticket (GitHub ou Linear), son ticket parent et la PR, en ignorant les robots. Ils apparaissent dans un bloc « Décisions » de la colonne de contexte, avec leur auteur, leur date et leur source. Un écart qui suit une décision est marqué comme tel et n’est plus ajouté d’office à la relecture.
