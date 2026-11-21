@@ -3,6 +3,10 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.18.4 — November 21, 2026
+
+- **Chrome by choice, for each review**: “Start review” offers “Look at the test build in Chrome”, checked by default only when the PR publishes a test build. Other analyses (issues, mentions, Claude's reactions in the review) never open Chrome any more; it adds about 12,000 tokens per step. Without Chrome, Bridges still takes the annotated captures. The estimate under the button tells reviews with and without Chrome apart. In Settings › Connectors, “In analyses” becomes “In reviews”.
+
 ## 0.18.3 — November 21, 2026
 
 - **Claude costs 4 to 5 times less**: each call now loads only the tools Bridges uses (reading GitHub, Figma and images) instead of Claude Code's twenty tools, whose descriptions were sent again on every turn. Bridges reads the PR, its comments, its diff, its checks and the issue itself before calling Claude, which no longer spends a turn on each read; Claude is also asked to group its reads. On one measured review preparation: 25,000 tokens instead of 123,000. The estimates shown before starting an analysis start over.

@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.18.4 — 21 novembre 2026
+
+- **Chrome au choix, à chaque review** : « Lancer la review » propose « Regarder la version de test dans Chrome », coché d'office seulement quand la PR publie une version de test. Les autres analyses (tickets, mentions, réactions de Claude dans la relecture) n'ouvrent plus jamais Chrome, qui ajoute environ 12 000 jetons à chaque étape. Sans Chrome, les captures annotées restent prises par Bridges. L'estimation affichée sous le bouton distingue les reviews avec et sans Chrome. Dans Réglages › Connecteurs, « Dans les analyses » devient « Dans les reviews ».
+
 ## 0.18.3 — 21 novembre 2026
 
 - **Claude coûte 4 à 5 fois moins** : chaque appel ne charge plus que les outils dont Bridges se sert (lecture de GitHub, de Figma et des images), au lieu des vingt outils de Claude Code, dont les descriptions étaient renvoyées à chaque tour. Bridges lit lui-même la PR, ses commentaires, son diff, ses vérifications et le ticket avant d'appeler Claude, qui n'y passe plus un tour par lecture ; il est aussi invité à grouper ses lectures. Sur une préparation de relecture mesurée : 25 000 jetons au lieu de 123 000. Les estimations affichées avant de lancer une analyse repartent de zéro.
