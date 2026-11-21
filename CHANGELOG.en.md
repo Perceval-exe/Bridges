@@ -3,6 +3,11 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.20.1 — November 21, 2026
+
+- **Decisions picked up from comments**: Claude finds the trade-offs made along the way in the issue (GitHub or Linear), its parent issue and the PR, ignoring bots. They appear in a “Decisions” block in the context column, with their author, date and source. A difference that follows a decision is marked as such and is no longer added to the review automatically.
+- “View issue” and “View mockup” are no longer truncated: they stack when space runs out.
+
 ## 0.20.0 — November 21, 2026
 
 - **Instrument Sans everywhere**: the app now uses the same typeface as the website and the Figma design system. It is bundled (free OFL license), and the text size setting still applies.

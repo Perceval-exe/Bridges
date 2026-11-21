@@ -3,6 +3,11 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.20.1 — 21 novembre 2026
+
+- **Décisions relevées dans les commentaires** : Claude repère les arbitrages pris en route dans le ticket (GitHub ou Linear), son ticket parent et la PR, en ignorant les robots. Ils apparaissent dans un bloc « Décisions » de la colonne de contexte, avec leur auteur, leur date et leur source. Un écart qui suit une décision est marqué comme tel et n’est plus ajouté d’office à la relecture.
+- « Voir le ticket » et « Voir la maquette » ne sont plus tronqués : ils passent l’un sous l’autre quand la place manque.
+
 ## 0.20.0 — 21 novembre 2026
 
 - **Instrument Sans partout** : l’app adopte la police du site et du design system Figma. Elle est embarquée (licence libre OFL), et le réglage de taille du texte suit toujours.
