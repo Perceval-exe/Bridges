@@ -3,6 +3,10 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.18.3 — November 21, 2026
+
+- **Claude costs 4 to 5 times less**: each call now loads only the tools Bridges uses (reading GitHub, Figma and images) instead of Claude Code's twenty tools, whose descriptions were sent again on every turn. Bridges reads the PR, its comments, its diff, its checks and the issue itself before calling Claude, which no longer spends a turn on each read; Claude is also asked to group its reads. On one measured review preparation: 25,000 tokens instead of 123,000. The estimates shown before starting an analysis start over.
+
 ## 0.18.2 — November 20, 2026
 
 - **Sign out**: every Claude account has its “Sign out” button, the main account included (with a confirmation: that one also signs Claude Code out in the Terminal). The account card shows whether it is signed in. “Remove this account” signs out before removing. If the active account is signed out, Bridges switches to another signed-in account.

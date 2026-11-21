@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.18.3 — 21 novembre 2026
+
+- **Claude coûte 4 à 5 fois moins** : chaque appel ne charge plus que les outils dont Bridges se sert (lecture de GitHub, de Figma et des images), au lieu des vingt outils de Claude Code, dont les descriptions étaient renvoyées à chaque tour. Bridges lit lui-même la PR, ses commentaires, son diff, ses vérifications et le ticket avant d'appeler Claude, qui n'y passe plus un tour par lecture ; il est aussi invité à grouper ses lectures. Sur une préparation de relecture mesurée : 25 000 jetons au lieu de 123 000. Les estimations affichées avant de lancer une analyse repartent de zéro.
+
 ## 0.18.2 — 20 novembre 2026
 
 - **Se déconnecter** : chaque compte Claude a son bouton « Se déconnecter », compte principal compris (avec confirmation : ce compte-là déconnecte aussi Claude Code dans le Terminal). La carte du compte indique s'il est connecté. « Retirer ce compte » déconnecte avant de retirer. Si le compte actif est déconnecté, Bridges passe sur un autre compte connecté.
