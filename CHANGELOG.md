@@ -3,6 +3,12 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.19.0 — 21 novembre 2026
+
+- **Outils au choix** : à la configuration, Bridges demande d'abord les outils de l'équipe (code sur GitHub, tickets sur GitHub, Figma, Claude), et chacun peut être passé. GitLab, Jira et Linear sont annoncés. Seules les étapes des outils retenus restent.
+- **Réglages › Outils** (anciennement « Comptes ») : chaque outil s'ajoute ou se retire à tout moment. Ses sections disparaissent et la synchro ne l'interroge plus, sans toucher à ses connexions. Figma fonctionne même sans GitHub.
+- **Sans Claude**, la relecture d'une PR s'écrit directement.
+
 ## 0.18.4 — 21 novembre 2026
 
 - **Chrome au choix, à chaque review** : « Lancer la review » propose « Regarder la version de test dans Chrome », coché d'office seulement quand la PR publie une version de test. Les autres analyses (tickets, mentions, réactions de Claude dans la relecture) n'ouvrent plus jamais Chrome, qui ajoute environ 12 000 jetons à chaque étape. Sans Chrome, les captures annotées restent prises par Bridges. L'estimation affichée sous le bouton distingue les reviews avec et sans Chrome. Dans Réglages › Connecteurs, « Dans les analyses » devient « Dans les reviews ».

@@ -3,6 +3,12 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.19.0 — November 21, 2026
+
+- **Choose your tools**: during setup, Bridges first asks for the team's tools (code on GitHub, issues on GitHub, Figma, Claude), and each one can be skipped. GitLab, Jira and Linear are announced. Only the steps for the chosen tools remain.
+- **Settings › Tools** (formerly “Accounts”): each tool can be added or removed at any time. Its sections disappear and sync stops querying it, without touching its connections. Figma works even without GitHub.
+- **Without Claude**, a PR review is written directly.
+
 ## 0.18.4 — November 21, 2026
 
 - **Chrome by choice, for each review**: “Start review” offers “Look at the test build in Chrome”, checked by default only when the PR publishes a test build. Other analyses (issues, mentions, Claude's reactions in the review) never open Chrome any more; it adds about 12,000 tokens per step. Without Chrome, Bridges still takes the annotated captures. The estimate under the button tells reviews with and without Chrome apart. In Settings › Connectors, “In analyses” becomes “In reviews”.
