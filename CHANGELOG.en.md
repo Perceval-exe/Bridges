@@ -3,6 +3,11 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.32.0 — November 22, 2026
+
+- **New section names**: “My issues” replaces “My requests”, “Anomalies” replaces “Missing mockups”, “Branch merge” replaces “Working branches”.
+- **Translations**: two labels were missing in English.
+
 ## 0.31.0 — November 22, 2026
 
 - **A clear hierarchy on every screen**: like the design review, the left column starts with the “In short” card (one sentence, “Refresh the context”), then the main links as buttons, then labeled facts (a bold line, a detail line), and finally the detailed text and the thread.

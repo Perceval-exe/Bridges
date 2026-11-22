@@ -3,6 +3,11 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.32.0 — 22 novembre 2026
+
+- **Nouveaux noms de sections** : « Mes issues » remplace « Mes demandes », « Anomalies » remplace « Maquettes manquantes », « Fusion de branche » remplace « Branches de travail ».
+- **Traductions** : deux libellés manquaient en anglais.
+
 ## 0.31.0 — 22 novembre 2026
 
 - **Une hiérarchie claire sur tous les écrans** : comme la revue design, la colonne de gauche commence par la carte « En bref » (une phrase, « Actualiser le contexte »), puis les liens principaux en boutons, puis des faits étiquetés (une ligne en gras, une ligne de détail), et enfin le texte détaillé et le fil.
