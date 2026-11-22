@@ -3,6 +3,15 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.30.0 — 22 novembre 2026
+
+- **Même mise en page partout** : comme la revue design, le contexte occupe un tiers à gauche et l'action deux tiers à droite, séparation réglable (double-clic pour revenir au tiers). « Ce qu'on attend de moi » passe en tête de la colonne d'action, au-dessus de la rédaction.
+- **À livrer** : la demande, ce qui s'est dit, les écrans Figma touchés et ce qui reste à clarifier ; à droite, ma livraison à cocher, la branche Figma (copier son nom, puis « Modifier avec Claude » une fois créée) et un commentaire au demandeur.
+- **Maquettes manquantes** : ce qui se construit, ce qui le montre et l'urgence ; à droite, « Faut-il une maquette ? » (choix en vigueur coché, « Remettre à trier »), ce qu'il faut maquetter, la branche Figma et un message au dev. La liste tient en trois groupes, le reste replié dans « Sans doute pas besoin de maquette ».
+- **Branches Figma** : le verdict, ce qui a bougé sur le principal, ce qui change et les points d'attention ; à droite, avant de merger : le périmètre, ce qu'il faut regarder, « Valider le design » et « Merger dans Figma », puis un message au dev.
+- **Mode démo** : un vrai fil et une réponse à vérifier pour chaque exemple (#131, #160, branche #120) ; seules les conversations d'exemple s'affichent, jamais les vraies.
+- **Wording** : notifications « me mentionne dans », « me confie », « demande une revue design sur » ; « Revue design » dans les discussions de Claude.
+
 ## 0.29.0 — 22 novembre 2026
 
 - **Mentions repensées** : la mention en grand, puis trois résumés de Claude dans l'ordre de lecture : le sujet du ticket, ce qui s'est dit, ce qu'on attend de moi (questions, décisions, échéance). À droite, la réponse : dictée, vérifiée par Claude face au fil, puis « Copier et ouvrir GitHub » (le ticket s'ouvre sur le commentaire, à coller et publier). Statuts « À répondre », « Réponse en cours », « Copiée, à publier », « Répondu ».

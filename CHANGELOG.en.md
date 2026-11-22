@@ -3,6 +3,15 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.30.0 — November 22, 2026
+
+- **Same layout everywhere**: like the design review, context takes a third on the left and action two thirds on the right, with an adjustable divider (double-click to reset). “What's expected of me” moves to the top of the action column, above the writing area.
+- **To deliver**: the request, what was said, the Figma screens affected and what's left to clarify; on the right, my delivery to check off, the Figma branch (copy its name, then “Edit with Claude” once created) and a comment to the requester.
+- **Missing mockups**: what's being built, what shows it and how urgent it is; on the right, “Is a mockup needed?” (current choice checked, “Back to sorting”), what to mock up, the Figma branch and a message to the dev. The list fits in three groups, the rest folded into “Probably no mockup needed”.
+- **Figma branches**: the verdict, what moved on the main file, what changes and points of attention; on the right, before merging: scope, what to check, “Approve the design” and “Merge in Figma”, then a message to the dev.
+- **Demo mode**: a real thread and a reply to check for each example (#131, #160, branch #120); only sample conversations show, never real ones.
+- **Wording**: notifications “mentions me in”, “assigns me”, “asks for a design review on”; “Design review” in Claude's conversations.
+
 ## 0.29.0 — November 22, 2026
 
 - **Mentions redesigned**: the mention up top, then three Claude summaries in reading order: the issue's subject, what was said, what's expected of me (questions, decisions, deadline). On the right, the reply: dictated, checked by Claude against the thread, then “Copy and open GitHub” (the issue opens at the comment, to paste and post). Statuses “To answer”, “Reply in progress”, “Copied, to post”, “Answered”.
