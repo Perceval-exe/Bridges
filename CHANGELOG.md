@@ -3,6 +3,13 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.25.0 — 22 novembre 2026
+
+- **Composant contre composant** : chaque écart vu sur la version de test montre côte à côte le calque Figma de l'élément et le gros plan de l'élément dans la PR, à la même échelle. Claude indique désormais le calque Figma de chaque écart. Bridges en demande le rendu à Figma et recadre lui-même la capture, sans jeton Claude de plus pour les images. Un clic ouvre la capture entière, annotée, ou le calque dans Figma.
+- **« En bref » séparé de la review** : il ne vient plus que de « Actualiser le contexte » ; lancer la review ne le modifie plus.
+- **Estimations en part de la session Claude** plutôt qu'en jetons, sous « Lancer la review », pendant l'analyse et dans l'alerte d'analyse coûteuse.
+- **Mode démo : un seul cas complet par section.** La PR #214 couvre tous les états (écarts à traiter, consigné, aligné sur le code, ignoré, état absent, décision, issue). Elle cite le ticket Linear SUP-133 avec sa description, ses commentaires et son parent. Chaque écart a sa paire de composants d'exemple.
+
 ## 0.24.1 — 22 novembre 2026
 
 - **Mode démo** : les autres remarques de la synthèse sont pré-remplies pour chaque PR d'exemple, si bien que « Vérifier » fonctionne partout. Les points relevés par Claude sont propres à chaque PR : ticket Linear ou GitHub contredit, règle du design system, personne à prévenir.

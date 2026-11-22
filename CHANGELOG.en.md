@@ -3,6 +3,13 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.25.0 — November 22, 2026
+
+- **Component against component**: each gap seen on the test build shows the element's Figma layer side by side with a close-up of the element in the PR, at the same scale. Claude now gives the Figma layer of each gap. Bridges asks Figma for its render and crops the capture itself, with no extra Claude tokens for the images. A click opens the full annotated capture, or the layer in Figma.
+- **“In brief” separate from the review**: it now comes only from “Refresh context”; running the review no longer changes it.
+- **Estimates as a share of the Claude session** rather than tokens, under “Run the review”, during the analysis, and in the costly-analysis warning.
+- **Demo mode: one complete case per section.** PR #214 covers every state (gaps to handle, recorded, aligned on code, ignored, missing state, decision, issue). It cites Linear issue SUP-133 with its description, comments, and parent. Each gap has its pair of sample components.
+
 ## 0.24.1 — November 22, 2026
 
 - **Demo mode**: the summary's other remarks are prefilled for every sample PR, so “Check” works everywhere. The points Claude raises are specific to each PR: a contradicted Linear or GitHub issue, a design system rule, someone to inform.
