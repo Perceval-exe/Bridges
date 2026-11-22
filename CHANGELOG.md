@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.21.1 — 22 novembre 2026
+
+- **Correctif** : le haut de Réglages › À propos (icône, nom, version) est centré sur toute la largeur du panneau.
+
 ## 0.21.0 — 22 novembre 2026
 
 - **Écarts à trancher** : plus aucun écart n'est aligné d'office sur Figma. Chacun démarre « À traiter » ; choisir Figma ou Code le passe à « Consigné », la carte s'efface et descend sous ceux qui restent. Un message confirme chaque décision, avec « Annuler ». Les onglets ne comptent plus que ce qui reste à traiter.
