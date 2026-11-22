@@ -3,6 +3,13 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.29.0 — 22 novembre 2026
+
+- **Mentions repensées** : la mention en grand, puis trois résumés de Claude dans l'ordre de lecture : le sujet du ticket, ce qui s'est dit, ce qu'on attend de moi (questions, décisions, échéance). À droite, la réponse : dictée, vérifiée par Claude face au fil, puis « Copier et ouvrir GitHub » (le ticket s'ouvre sur le commentaire, à coller et publier). Statuts « À répondre », « Réponse en cours », « Copiée, à publier », « Répondu ».
+- **« Mes demandes »** remplace « Créés par moi » : les tickets rédigés, groupés par qui doit agir. « À moi de jouer » en tête (PR à relire, commentaire sans réponse), puis en cours et pas démarrées ; « Sans nouvelles depuis N j » quand rien ne bouge. Le détail montre les étapes, le planning, la PR qui attend ma revue design (« Ouvrir la revue design »), où en est le ticket, ce qui a bougé, ce qu'on attend de moi, et un commentaire à rédiger sur le même principe que les mentions.
+- **« À livrer »** remplace « Assignés à moi ».
+- **Réglages épurés** : une ligne par réglage, nom et aide d'une ligne à gauche, contrôle à droite. Menus déroulants pour l'apparence, la langue, la synchronisation et les outils ; jetons Figma et Linear repliés une fois enregistrés (« Retirer », « Remplacer ») ; textes raccourcis ; « Relancer l'accueil » reste dans la palette de commandes.
+
 ## 0.28.0 — 22 novembre 2026
 
 - **Figma ne bouge plus au clic** : choisir « Code » sur un écart consigne seulement la décision. La maquette se met à jour depuis la synthèse, avec « Mettre la maquette à jour », en une seule fois pour tous les écarts concernés. Claude travaille dans une branche et demande confirmation avant de toucher le fichier principal. « Arrêter » interrompt la mise à jour.

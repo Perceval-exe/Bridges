@@ -3,6 +3,13 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.29.0 — November 22, 2026
+
+- **Mentions redesigned**: the mention up top, then three Claude summaries in reading order: the issue's subject, what was said, what's expected of me (questions, decisions, deadline). On the right, the reply: dictated, checked by Claude against the thread, then “Copy and open GitHub” (the issue opens at the comment, to paste and post). Statuses “To answer”, “Reply in progress”, “Copied, to post”, “Answered”.
+- **“My requests”** replaces “Created by me”: the tickets I wrote, grouped by who has to act. “My move” first (PR to review, unanswered comment), then in progress and not started; “No news for N d” when nothing moves. The detail shows the steps, the schedule, the PR waiting for my design review (“Open the design review”), where the ticket stands, what moved, what's expected of me, and a comment to write the same way as mentions.
+- **“To deliver”** replaces “Assigned to me”.
+- **Leaner settings**: one row per setting, name and one-line help on the left, control on the right. Dropdowns for appearance, language, sync and tools; Figma and Linear tokens folded once saved (“Remove”, “Replace”); shorter copy; “Restart onboarding” stays in the command palette.
+
 ## 0.28.0 — November 22, 2026
 
 - **Figma no longer changes on click**: choosing “Code” on a gap only records the decision. The mockup is updated from the summary, with “Update the mockup”, in one go for every gap concerned. Claude works in a branch and asks for confirmation before touching the main file. “Stop” interrupts the update.
