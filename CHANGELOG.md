@@ -3,6 +3,14 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.31.0 — 22 novembre 2026
+
+- **Une hiérarchie claire sur tous les écrans** : comme la revue design, la colonne de gauche commence par la carte « En bref » (une phrase, « Actualiser le contexte »), puis les liens principaux en boutons, puis des faits étiquetés (une ligne en gras, une ligne de détail), et enfin le texte détaillé et le fil.
+- **Branches de travail** remplace « Branches » et « Branches Figma ».
+- **Noms identiques partout** : la branche Figma à créer reprend exactement le titre du ticket (« #131 Vue salle : maquette des filtres combinés »), dans À livrer comme dans Maquettes manquantes.
+- **Agents** a sa propre entrée dans la barre latérale, sous Claude.
+- **Réglages** : Accessibilité passe en lignes alignées sur les autres onglets (menus pour le contraste et la taille du texte) ; Données tient en trois lignes et renvoie à l'aide du site pour le détail.
+
 ## 0.30.0 — 22 novembre 2026
 
 - **Même mise en page partout** : comme la revue design, le contexte occupe un tiers à gauche et l'action deux tiers à droite, séparation réglable (double-clic pour revenir au tiers). « Ce qu'on attend de moi » passe en tête de la colonne d'action, au-dessus de la rédaction.

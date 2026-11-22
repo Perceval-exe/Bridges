@@ -3,6 +3,14 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.31.0 — November 22, 2026
+
+- **A clear hierarchy on every screen**: like the design review, the left column starts with the “In short” card (one sentence, “Refresh the context”), then the main links as buttons, then labeled facts (a bold line, a detail line), and finally the detailed text and the thread.
+- **Working branches** replaces “Branches” and “Figma branches”.
+- **Same names everywhere**: the Figma branch to create takes the issue's exact title (“#131 Room view: mockup for combined filters”), in To deliver as in Missing mockups.
+- **Agents** has its own entry in the sidebar, under Claude.
+- **Settings**: Accessibility uses rows aligned with the other tabs (menus for contrast and text size); Data fits in three rows and links to the site's help for details.
+
 ## 0.30.0 — November 22, 2026
 
 - **Same layout everywhere**: like the design review, context takes a third on the left and action two thirds on the right, with an adjustable divider (double-click to reset). “What's expected of me” moves to the top of the action column, above the writing area.
