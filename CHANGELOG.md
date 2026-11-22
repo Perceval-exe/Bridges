@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.22.0 — 22 novembre 2026
+
+- **Claude simulé en mode démo** : chaque action de Claude fonctionne désormais en démo, avec ses étapes de chargement et un résultat vraisemblable, sans rien consommer ni rien envoyer. Cela couvre la review d'une PR, y compris celles qui n'en avaient pas, les cartes « Réagir », les réponses et « Intégrer au paragraphe », les issues détaillées, « Aligner sur le code », les aides sur les notes, les avis d'agents et les conversations, dont la réponse s'écrit mot à mot. Rien n'est enregistré : les vraies analyses reviennent à la sortie du mode démo.
+
 ## 0.21.1 — 22 novembre 2026
 
 - **Correctif** : le haut de Réglages › À propos (icône, nom, version) est centré sur toute la largeur du panneau.

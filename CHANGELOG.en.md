@@ -3,6 +3,10 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.22.0 — November 22, 2026
+
+- **Simulated Claude in demo mode**: every Claude action now works in demo, with its loading steps and a realistic result, without using anything or sending anything. This covers a PR review, including PRs that had none, “React” cards, replies and “Integrate into the paragraph”, detailed issues, “Align on code”, help on notes, agent opinions, and conversations, whose answer is written word by word. Nothing is saved: the real analyses come back on exiting demo mode.
+
 ## 0.21.1 — November 22, 2026
 
 - **Fix**: the top of Settings › About (icon, name, version) is centered across the full width of the pane.
