@@ -3,6 +3,15 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.27.0 — 22 novembre 2026
+
+- **Re-review après correction** : une nouvelle review repart de la précédente. « Depuis la review du 21 nov. » résume ce qui a changé (corrigés, nouveaux, restants). Les écarts corrigés par le dev apparaissent barrés avec « Corrigé », les nouveaux portent la pastille « Nouveau », et les décisions déjà prises sont gardées. La synthèse ajoute « Corrigé depuis la review précédente ».
+- **Après « Envoyer »** : la synthèse et la liste indiquent « Envoyée, à valider sur GitHub », puis « Review publiée » une fois validée, puis « Modifiée depuis ma review » quand la PR bouge ensuite.
+- **La liste à grande échelle** : chaque PR montre où en est sa revue design (« 3 écarts à traiter », « Synthèse prête »…). Le menu « Affichage » filtre par dépôt et peut faire passer en premier ce qui n'attend plus que le design pour être fusionné.
+- **Trancher vite** : l'écart à traiter suivant est souligné. ⌥⌘F l'aligne sur Figma, ⌥⌘C sur le code, ⌥⌘X l'ignore, et l'écart suivant vient sous les yeux. Pas de raccourci à une seule touche : une lettre tapée hors d'un champ ne tranche jamais rien. « Aligner les N restants sur Figma » traite d'un coup tous les écarts restants, avec « Annuler ».
+- **États manquants illustrés** : un état dessiné dans la maquette et absent de la PR montre l'écran Figma de cet état face à « Absent de la PR ».
+- **Version retenue** : une pastille verte « Retenue » marque la version conservée une fois l'écart tranché. Le bouton des captures est centré sur l'en-tête du relevé.
+
 ## 0.26.0 — 22 novembre 2026
 
 - **« Revue design »** remplace « Demandes de relecture » dans la barre latérale, la page et la palette de commandes, comme sur le site.

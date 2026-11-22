@@ -3,6 +3,15 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.27.0 — November 22, 2026
+
+- **Re-review after fixes**: a new review builds on the previous one. “Since the review of Nov 21” sums up what changed (fixed, new, remaining). Gaps the dev fixed appear struck through with “Fixed”, new ones carry a “New” badge, and decisions already made are kept. The summary adds “Fixed since the previous review”.
+- **After “Send”**: the summary and the list show “Sent, to approve on GitHub”, then “Review published” once approved, then “Changed since my review” when the PR moves afterwards.
+- **The list at scale**: each PR shows where its design review stands (“3 gaps to handle”, “Summary ready”…). The “View” menu filters by repository and can put first what is waiting only on design to be merged.
+- **Decide fast**: the next gap to handle is highlighted. ⌥⌘F aligns it on Figma, ⌥⌘C on code, ⌥⌘X ignores it, and the next gap scrolls into view. No single-key shortcuts: a letter typed outside a field never decides anything. “Align the N remaining on Figma” handles every remaining gap at once, with “Undo”.
+- **Missing states illustrated**: a state drawn in the mockup and missing from the PR shows the Figma screen of that state against “Missing from the PR”.
+- **Kept version**: a green “Kept” badge marks the retained version once a gap is decided. The captures button is centered on the findings header.
+
 ## 0.26.0 — November 22, 2026
 
 - **“Design review”** replaces “Review requests” in the sidebar, the page, and the command palette, as on the website.
