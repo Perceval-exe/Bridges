@@ -3,6 +3,16 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.28.0 — November 22, 2026
+
+- **Figma no longer changes on click**: choosing “Code” on a gap only records the decision. The mockup is updated from the summary, with “Update the mockup”, in one go for every gap concerned. Claude works in a branch and asks for confirmation before touching the main file. “Stop” interrupts the update.
+- **Decided gaps folded**: a recorded gap shrinks to one line (name and decision), below the gaps to handle. “Review” unfolds it, “Fold” closes it.
+- **Compare large**: the mockup and the test build open large, side by side or overlaid, with a slider to fade from one to the other.
+- **Lighter list of gaps**: the “mockup” and “PR” values become captions under each preview. The instructions show only until something is decided, then stay in the title's tooltip. The ⌥⌘F, ⌥⌘C and ⌥⌘X shortcuts are recalled in tooltips rather than on the card.
+- **List by progress**: “Review started”, “To review”, then “Sent”.
+- **Decisions applied automatically**: a gap that follows an earlier decision is compliant, with nothing to decide. The context column keeps only the decisions that explain no gap.
+- **Demo mode**: the example components are redrawn as a real dark interface (tile with the last hour's trend, graduated legend, full error state). The “Kept” badge moves under the preview.
+
 ## 0.27.0 — November 22, 2026
 
 - **Re-review after fixes**: a new review builds on the previous one. “Since the review of Nov 21” sums up what changed (fixed, new, remaining). Gaps the dev fixed appear struck through with “Fixed”, new ones carry a “New” badge, and decisions already made are kept. The summary adds “Fixed since the previous review”.

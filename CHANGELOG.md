@@ -3,6 +3,16 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.28.0 — 22 novembre 2026
+
+- **Figma ne bouge plus au clic** : choisir « Code » sur un écart consigne seulement la décision. La maquette se met à jour depuis la synthèse, avec « Mettre la maquette à jour », en une seule fois pour tous les écarts concernés. Claude travaille dans une branche et demande confirmation avant de toucher le fichier principal. « Arrêter » interrompt la mise à jour.
+- **Écarts tranchés repliés** : un écart consigné se réduit à une ligne (nom et décision), sous les écarts à traiter. « Revoir » le déplie, « Replier » le referme.
+- **Comparer en grand** : la maquette et la version de test s'ouvrent en grand, côte à côte ou superposées, avec un curseur pour passer de l'une à l'autre.
+- **Relevé allégé** : les valeurs « maquette » et « PR » passent en légende sous chaque aperçu. Le mode d'emploi ne s'affiche que tant que rien n'est tranché, puis reste dans l'infobulle du titre. Les raccourcis ⌥⌘F, ⌥⌘C et ⌥⌘X sont rappelés dans les infobulles plutôt que sur la carte.
+- **Liste par avancement** : « Revue entamée », « À relire », puis « Envoyées ».
+- **Décisions appliquées d'office** : un écart qui suit une décision prise en amont est conforme, sans rien à trancher. La colonne de contexte ne garde que les décisions qui n'expliquent aucun écart.
+- **Mode démo** : les composants d'exemple sont redessinés comme une vraie interface sombre (tuile avec tendance de la dernière heure, légende graduée, état d'erreur complet). La pastille « Retenue » passe sous l'aperçu.
+
 ## 0.27.0 — 22 novembre 2026
 
 - **Re-review après correction** : une nouvelle review repart de la précédente. « Depuis la review du 21 nov. » résume ce qui a changé (corrigés, nouveaux, restants). Les écarts corrigés par le dev apparaissent barrés avec « Corrigé », les nouveaux portent la pastille « Nouveau », et les décisions déjà prises sont gardées. La synthèse ajoute « Corrigé depuis la review précédente ».
