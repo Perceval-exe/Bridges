@@ -3,6 +3,12 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.23.0 — 22 novembre 2026
+
+- **« Vérifier » remplace « Réagir »** : dans la synthèse, Claude confronte les autres remarques au ticket, à la maquette et aux PR en cours. Ses points s'affichent sous le texte, jamais dedans, avec deux décisions au plus : « Corriger ma remarque », qui montre la phrase réécrite à côté de l'ancienne barrée avant « Accepter » ou « Refuser », et « Ignorer ». « Créer une issue » s'y ajoute quand le point dépasse la PR. Plus de discussion dans les cartes : « Discuter » ouvre la conversation habituelle. Seul le texte écrit part.
+- **Barre de la synthèse** : « Dicter » devient un vrai bouton, à gauche ; « Vérifier » puis « Envoyer » (anciennement « Préparer sur GitHub ») à droite.
+- **Mode démo plus complet** : les PR d'exemple couvrent désormais chaque état. Le tableau des alertes a tout à trancher, avec une décision prise en route ; le bouton a des écarts consignés, dont un ignoré parce qu'il suit une décision ; la jauge n'a aucun écart ; le brouillon attend sa review. Chaque PR a ses commentaires.
+
 ## 0.22.0 — 22 novembre 2026
 
 - **Claude simulé en mode démo** : chaque action de Claude fonctionne désormais en démo, avec ses étapes de chargement et un résultat vraisemblable, sans rien consommer ni rien envoyer. Cela couvre la review d'une PR, y compris celles qui n'en avaient pas, les cartes « Réagir », les réponses et « Intégrer au paragraphe », les issues détaillées, « Aligner sur le code », les aides sur les notes, les avis d'agents et les conversations, dont la réponse s'écrit mot à mot. Rien n'est enregistré : les vraies analyses reviennent à la sortie du mode démo.
