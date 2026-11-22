@@ -3,6 +3,12 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.21.0 — 22 novembre 2026
+
+- **Écarts à trancher** : plus aucun écart n'est aligné d'office sur Figma. Chacun démarre « À traiter » ; choisir Figma ou Code le passe à « Consigné », la carte s'efface et descend sous ceux qui restent. Un message confirme chaque décision, avec « Annuler ». Les onglets ne comptent plus que ce qui reste à traiter.
+- **Synthèse** (anciennement « Relecture ») : les décisions sont mises en page d'elles-mêmes, écarts à corriger, écarts validés tels quels, suggestions retenues et issues à créer, chacune avec « Modifier ». Les autres remarques s'écrivent dessous, et « Préparer sur GitHub » envoie le tout.
+- **Issues détaillées** : « Créer une issue » fait rédiger par Claude une issue complète (contexte, constat, proposition, parcours à valider, effets de bord, critères d'acceptation, questions ouvertes, liens), à relire dans la synthèse avant de l'ouvrir. Ce qui manque est noté « À préciser ».
+
 ## 0.20.2 — 21 novembre 2026
 
 - **Correctif** : un retour à suivre s’ouvre désormais dans Linear quand la PR cite un ticket Linear, et dans GitHub sinon. Toujours pré-rempli, et rien n’est créé avant validation.

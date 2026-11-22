@@ -3,6 +3,12 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.21.0 — November 22, 2026
+
+- **Gaps to decide**: no gap is aligned on Figma by default anymore. Each one starts as “To handle”; choosing Figma or Code marks it “Recorded”, and its card fades and moves below the ones left. A message confirms each decision, with “Undo”. Tabs now count only what is left to handle.
+- **Summary** (formerly “Review”): decisions are laid out on their own, gaps to fix, gaps approved as is, kept suggestions, and issues to create, each with “Edit”. Other remarks go below, and “Prepare on GitHub” sends it all.
+- **Detailed issues**: “Create an issue” has Claude write a full issue (context, finding, proposal, flows to check, side effects, acceptance criteria, open questions, links), to review in the summary before opening it. Missing information is marked “To be specified”.
+
 ## 0.20.2 — November 21, 2026
 
 - **Fix**: a follow-up now opens in Linear when the PR mentions a Linear issue, and in GitHub otherwise. Still prefilled, and nothing is created until confirmed.
