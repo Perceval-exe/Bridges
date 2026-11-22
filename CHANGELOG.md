@@ -3,6 +3,11 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.24.0 — 22 novembre 2026
+
+- **Mode démo à l'échelle d'une grande équipe** : 12 demandes de relecture réparties sur quatre dépôts (app web, app mobile, design system, site), avec une dizaine de personnes (produit, dev, QA, sécurité). Chaque PR a ses commentaires et son résumé.
+- **Linear dans la démo** : trois équipes Linear (Supervision, Design system, Mobile) à côté des tickets GitHub. Les PR qui citent un ticket Linear affichent « Voir le ticket DS-48 », avec sa description, ses commentaires, son lien Figma et son ticket parent, et leurs décisions citent le ticket Linear comme source.
+
 ## 0.23.0 — 22 novembre 2026
 
 - **« Vérifier » remplace « Réagir »** : dans la synthèse, Claude confronte les autres remarques au ticket, à la maquette et aux PR en cours. Ses points s'affichent sous le texte, jamais dedans, avec deux décisions au plus : « Corriger ma remarque », qui montre la phrase réécrite à côté de l'ancienne barrée avant « Accepter » ou « Refuser », et « Ignorer ». « Créer une issue » s'y ajoute quand le point dépasse la PR. Plus de discussion dans les cartes : « Discuter » ouvre la conversation habituelle. Seul le texte écrit part.

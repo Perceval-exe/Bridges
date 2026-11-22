@@ -3,6 +3,11 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.24.0 — November 22, 2026
+
+- **Demo mode at the scale of a large team**: 12 review requests across four repositories (web app, mobile app, design system, site), with about ten people (product, dev, QA, security). Each PR has its comments and its summary.
+- **Linear in the demo**: three Linear teams (Monitoring, Design system, Mobile) alongside GitHub issues. PRs that cite a Linear issue show “View issue DS-48”, with its description, comments, Figma link, and parent issue, and their decisions cite the Linear issue as their source.
+
 ## 0.23.0 — November 22, 2026
 
 - **“Check” replaces “React”**: in the summary, Claude compares the other remarks with the ticket, the mockup, and open PRs. Its points show below the text, never in it, with two decisions at most: “Fix my remark”, which shows the rewritten sentence next to the old one struck through before “Accept” or “Decline”, and “Ignore”. “Create an issue” is added when the point goes beyond the PR. No more discussion inside cards: “Discuss” opens the usual conversation. Only the written text goes out.
