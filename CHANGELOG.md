@@ -3,6 +3,13 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.26.0 — 22 novembre 2026
+
+- **« Revue design »** remplace « Demandes de relecture » dans la barre latérale, la page et la palette de commandes, comme sur le site.
+- **Comparaison des écarts** : la maquette et la version de test occupent toute la largeur de la carte, sans bordure, sur un canevas plus sombre tramé de points fins, comme dans Figma. Leurs noms passent dessous, centrés.
+- **Relevé plus aéré** : plus d'espace entre les onglets et le relevé, entre l'en-tête et les écarts, et dans chaque carte.
+- **Mode démo** : les composants d'exemple passent en vrai mode sombre, avec des surfaces presque noires et un seul accent ambre, à la place du dégradé de couleurs.
+
 ## 0.25.0 — 22 novembre 2026
 
 - **Composant contre composant** : chaque écart vu sur la version de test montre côte à côte le calque Figma de l'élément et le gros plan de l'élément dans la PR, à la même échelle. Claude indique désormais le calque Figma de chaque écart. Bridges en demande le rendu à Figma et recadre lui-même la capture, sans jeton Claude de plus pour les images. Un clic ouvre la capture entière, annotée, ou le calque dans Figma.

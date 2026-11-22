@@ -3,6 +3,13 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.26.0 — November 22, 2026
+
+- **“Design review”** replaces “Review requests” in the sidebar, the page, and the command palette, as on the website.
+- **Gap comparison**: the mockup and the test build take the full width of the card, without borders, on a darker canvas with a fine dot grid, as in Figma. Their names now sit below, centered.
+- **More breathing room**: more space between the tabs and the findings, between the header and the gaps, and inside each card.
+- **Demo mode**: the sample components switch to a true dark mode, with near-black surfaces and a single amber accent instead of a rainbow of colors.
+
 ## 0.25.0 — November 22, 2026
 
 - **Component against component**: each gap seen on the test build shows the element's Figma layer side by side with a close-up of the element in the PR, at the same scale. Claude now gives the Figma layer of each gap. Bridges asks Figma for its render and crops the capture itself, with no extra Claude tokens for the images. A click opens the full annotated capture, or the layer in Figma.
