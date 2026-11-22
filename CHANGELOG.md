@@ -3,6 +3,10 @@
 Une version est publiée chaque lundi à 7 h. Chaque version est signée « Developer ID » et notarisée par Apple ; l'application
 propose elle-même son installation.
 
+## 0.24.1 — 22 novembre 2026
+
+- **Mode démo** : les autres remarques de la synthèse sont pré-remplies pour chaque PR d'exemple, si bien que « Vérifier » fonctionne partout. Les points relevés par Claude sont propres à chaque PR : ticket Linear ou GitHub contredit, règle du design system, personne à prévenir.
+
 ## 0.24.0 — 22 novembre 2026
 
 - **Mode démo à l'échelle d'une grande équipe** : 12 demandes de relecture réparties sur quatre dépôts (app web, app mobile, design system, site), avec une dizaine de personnes (produit, dev, QA, sécurité). Chaque PR a ses commentaires et son résumé.

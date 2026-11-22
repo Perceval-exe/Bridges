@@ -3,6 +3,10 @@
 A version is published every Monday at 7 a.m. Each version is signed with “Developer ID” and notarized by Apple; the app
 offers to install it on its own.
 
+## 0.24.1 — November 22, 2026
+
+- **Demo mode**: the summary's other remarks are prefilled for every sample PR, so “Check” works everywhere. The points Claude raises are specific to each PR: a contradicted Linear or GitHub issue, a design system rule, someone to inform.
+
 ## 0.24.0 — November 22, 2026
 
 - **Demo mode at the scale of a large team**: 12 review requests across four repositories (web app, mobile app, design system, site), with about ten people (product, dev, QA, security). Each PR has its comments and its summary.
